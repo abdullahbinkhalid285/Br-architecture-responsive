@@ -1,0 +1,91 @@
+@font-face {
+  font-family: verdana;
+  src: url(verdana.ttf);
+}
+*{
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+#hero-section{
+  background-image: url(images/architect.jpg);
+  height: 90vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom center ;
+  width: 100%;   
+}
+#br-text{
+  background-color: rgba(0, 0, 0, 0.75);
+ }
+ header nav{
+    position: fixed;
+    box-shadow: 0px 1px 10px rgb(83, 82, 82);
+}
+#button
+{
+  background-color: rgb(189, 189, 189);
+  border-radius: 0;
+}
+small{
+  color: gray;
+  margin-bottom: 1rem;
+}
+h4{
+  margin-top: 1rem;
+}
+#img{
+  filter: grayscale(75%);
+}
+.inputGroup {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 1em 0 1em 0;
+  max-width:auto;
+  position: relative;
+}
+
+.inputGroup input {
+  font-size: 100%;
+  padding: 0.8em;
+  outline: none;
+  border: 2px solid rgb(200, 200, 200);
+  background-color: transparent;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.inputGroup label {
+  font-size: 100%;
+  position: absolute;
+  left: 0;
+  padding: 0.8em;
+  margin-left: 0.5em;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  color: rgb(100, 100, 100);
+}
+
+.inputGroup :is(input:focus, input:valid)~label {
+  transform: translateY(-50%) scale(.9);
+  margin: 0em;
+  margin-left: 1.3em;
+  padding: 0.4em;
+  background-color: white;
+}
+
+.inputGroup :is(input:focus, input:valid) {
+  border-color: rgb(150, 150, 200);
+}
+#btn
+{
+  background-color: black;
+  color: white;
+  border-radius: 0;
+
+
+}
+#btn:hover{
+  background-color: rgb(189, 185, 185);
+  color: black;
+}
+
